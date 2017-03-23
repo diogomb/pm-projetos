@@ -4,8 +4,8 @@ body{
 }
 
 a{
-	color: #ffffff;
-	text-decoration: none;
+	color: #ffffff;/*yes */
+	text-decoration: none;/*yes */
 	font-size: 20px;
 	text-transform: uppercase;
 	font-weight: 500;
@@ -13,27 +13,31 @@ a{
 }
 
 ul{
-	padding: 0px;
+	padding: 0px; /*yes */
 	margin: 0px;
 	
 }
 
 li{
 	width: 100%;
-	margin-bottom: 3px;
-	padding: 55px 23px 55px 28px;
-
+	margin-bottom: 3px;/* yes*/
+	padding: 60px 60px 60px 100px;/*yes */
+    list-style-type: none;/*no */
+    background-color: #4a4a4a;
 
 }
 
 li.done:before{
-	content: url('boxdone.png');
-	padding: 23px;
+	background-image: url('boxdone.png');
+	background-repeat: no-repeat;
+    background-position: 40px center;
+
 }
 
-li.undone:before{
-	content: url('boxundone.png');
-	padding: 23px;
+li.undone{
+	background-image: url('boxundone.png');
+	background-repeat: no-repeat;
+    background-position: 40px center;
 }
 
 li.undone:hover{
@@ -50,8 +54,4 @@ li.done{
 
 li.undone{
 	background-color: #4a4a4a;
-}
-
-li p{
-	padding: 5px 0px 5px 0px;
 }

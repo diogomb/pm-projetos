@@ -14,6 +14,7 @@ a{
     background-image: url('arrow.png');
     background-repeat: no-repeat;
     background-position: right center;
+    -webkit-font-smoothing: antialiased;
 }
 
 ul{
@@ -34,12 +35,14 @@ li.done{
 	background-image: url('boxdone.png');
 	background-repeat: no-repeat;
     background-position: 40px center;
+    background-color: #27ae60;
 }
 
 li.undone{
 	background-image: url('boxundone.png');
 	background-repeat: no-repeat;
     background-position: 40px center;
+    background-color: #4a4a4a;
 }
 
 li.undone:hover{
@@ -50,10 +53,3 @@ li.done:hover{
 	background-color: #52be7f;
 }
 
-li.done{
-	background-color: #27ae60;
-}
-
-li.undone{
-	background-color: #4a4a4a;
-}

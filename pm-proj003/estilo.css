@@ -1,0 +1,56 @@
+body{
+	background-color: #745cc1;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+.login img{
+	margin-top: 65px;
+}
+
+input{
+	display: block;
+	width: 100%;
+	margin-bottom: 50px;
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid #ffffff;
+
+	
+}
+
+::-webkit-input-placeholder{
+	color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+button{
+	width: 100%;
+	background-color: #FFFFFF;
+	border-radius: 40px;
+	height: 50px;
+	text-transform: uppercase;
+	box-shadow: 0 2px 3px 0px #000;
+	border: none;
+	color: #39393a;
+	font-weight: 500;
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.login a{
+	color: #ffffff;
+	text-decoration: none;
+	text-shadow: 1px 1px 0 #000;
+	font-size: 14px;
+	font-weight: 400;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+form{
+	padding: 60px 60px 5px 60px;
+}

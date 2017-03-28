@@ -9,7 +9,7 @@ body{
 }
 
 .tabela table{
-    border-spacing: 13px;
+    border-spacing: 10px;
     border-collapse: separate;
 }
 
@@ -29,15 +29,16 @@ body{
 }
 
 .fundotabela{
-
+    color:#999;
     text-align: right;
     padding: 15px;
     font-size: 12px;
 }
 
 .fundotabela img{
-    margin-left:42px
+    margin-left:22px
 }
 .intervalopagina{
-    margin-right: 38px;
+    margin-right: 28px;
+    margin-left: 38px;
 }

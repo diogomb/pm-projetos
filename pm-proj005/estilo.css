@@ -1,0 +1,43 @@
+body{
+    background-color: #9b9b9b;
+    font-family: 'Roboto', sans-serif;
+}
+
+.tabela{
+    background-color: #ffffff;
+    margin: 95px;
+}
+
+.tabela table{
+    border-spacing: 13px;
+    border-collapse: separate;
+}
+
+.tabela th{
+    font-size: 14px;
+}
+
+.tabela td{
+    font-size: 13px;
+    padding:18px;
+}
+
+.tabela caption{
+    font-size: 20px;
+    text-align: left;
+    padding: 21px;
+}
+
+.fundotabela{
+
+    text-align: right;
+    padding: 15px;
+    font-size: 12px;
+}
+
+.fundotabela img{
+    margin-left:42px
+}
+.intervalopagina{
+    margin-right: 38px;
+}

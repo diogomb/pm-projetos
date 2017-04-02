@@ -1,15 +1,39 @@
 body{
     background-color: #ffffff;
-    padding: 25px;
+    padding-top: 57px;
+    margin: 20px;
     font-family: 'Roboto', sans-serif;
 }
 
 #logopc{
-    margin: 0px 34px 0px 44px;
+    margin: 0px 50px 0px 50px;
+}
+
+/* Desktop div */
+@media (min-width: 600px){
+    body{
+        margin: 0;
+    }
+    #logopc{
+        margin: 0px 50px 0px 850px;
+    }
+    .container{
+        width: 960px;
+        height: auto;
+        padding-left: 500px;
+    }
+    
+    .container .video{
+        width: 300px;
+        display: inline-block;
+        float: left;
+        margin-right: 20px;
+    }  
 }
 
 .video img{
     margin-top: 28px;
+    width: 100%;
 }
 
 .video a, a:visited{

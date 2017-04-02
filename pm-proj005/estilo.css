@@ -1,46 +1,71 @@
 body{
-    background-color: #9b9b9b;
-    font-family: 'Roboto', sans-serif;
-}
-
-.tabela{
-    background-color: #ffffff;
-    margin: 95px;
-    
+    background-color: #9b9b9b;/* */
+    padding: 45px;/* */
+    font-family: 'Roboto', sans-serif;/* */
+    -webkit-font-smoothing: antialiased;
+    font-size: 13px;
+    font-weight: 400;
 }
 
 .tabela table{
-    border-spacing: 10px;
-    border-collapse: collapse;
-    width: 100%;
+    background-color: #FFFFFF;/* */
+    width: 100%;/* */
+    border-spacing: 0;
+    border-radius: 0px 0px 3px 0px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
 }
 
-.tabela th{
-    font-size: 14px;
+.tabela table caption{
+    background-color: #FFFFFF;
+    font-size: 20px;/* */
+    text-align: left;/* */
+    padding: 20px;/* */
+    font-weight: 500;
+    border-radius: 3px 3px 0px 0px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.26);
 }
 
-.tabela td{
-    font-size: 13px;
-    padding:18px;
-}
-
-.tabela caption{
-    font-size: 20px;
+.tabela table th{
     text-align: left;
-    padding: 21px;
+    font-size: 14px;
+    font-weight: 500;
 }
 
-.fundotabela{
-    color:#999;
-    text-align: right;
-    padding: 15px;
+.tabela table td, .tabela table th{
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.tabela tbody td:first-child, .tabela thead th:first-child{
+    width: 80px;
+    text-align: center;
+}
+
+.tabela table tbody tr:hover{
+    background-color: #eeeeee;
+}
+
+.tabela table tfoot{
     font-size: 12px;
+    text-align: right;
+    opacity: 0.5;
 }
 
-.fundotabela img{
-    margin-left:22px
+.tabela table tfoot td{
+    padding-right: 20px;
 }
-.intervalopagina{
-    margin-right: 28px;
-    margin-left: 38px;
+
+.tabela table tfoot td span{
+    margin-right: 10px;
+    margin-left: 30px;
+}
+
+.tabela table tfoot td img{
+    margin-left: 20px;
+}
+
+.tabela table select{
+    border: none;
+    background-color: transparent;
 }

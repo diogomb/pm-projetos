@@ -1,0 +1,26 @@
+body{
+    background-color: #ffffff;
+    padding: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#logopc{
+    margin: 0px 34px 0px 44px;
+}
+
+.video img{
+    margin-top: 28px;
+}
+
+.video a, a:visited{
+    text-decoration: none;
+    color: #4a4a4a;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.video h2{
+    margin: 0;
+}
+

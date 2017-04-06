@@ -1,50 +1,34 @@
 body{
-    background-color: #ffffff;
-    padding-top: 57px;
-    margin: 20px;
-    font-family: 'Roboto', sans-serif;
+    padding: 10px;
 }
 
-#logopc{
-    margin: 0px 50px 0px 50px;
+h1{
+    background-image: url(logopc.png);
+    background-repeat: no-repeat;
+    background-position: center;    
 }
 
-/* Desktop div */
-@media (min-width: 600px){
-    body{
-        margin: 0;
-    }
-    #logopc{
-        margin: 0px 50px 0px 850px;
-    }
-    .container{
-        width: 960px;
-        height: auto;
-        padding-left: 500px;
-    }
-    
-    .container .video{
-        width: 300px;
-        display: inline-block;
-        float: left;
-        margin-right: 20px;
-    }  
-}
-
-.video img{
-    margin-top: 28px;
-    width: 100%;
-}
-
-.video a, a:visited{
-    text-decoration: none;
+h2{
+    margin: 0;
     color: #4a4a4a;
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 500;
     text-transform: uppercase;
+    -webkit-font-smoothing: antialiased; 
 }
 
-.video h2{
-    margin: 0;
+h1 span{
+    visibility: hidden;
 }
+
+.video img{
+    width: 100%;
+    text-align: center;
+}
+
+.video{
+    margin-bottom: 30px;
+}
+
 

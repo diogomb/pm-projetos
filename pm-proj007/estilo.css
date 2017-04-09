@@ -1,3 +1,54 @@
 body{
     font-family: 'Lato', sans-serif;
 }
+#logotipo{
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    margin: 20px 165px 50px 256px;
+    padding: 30px 100px 10px 10px;
+    
+}
+#logotipo span{
+    visibility: hidden;
+}
+nav{
+    width: 100%;
+    padding: 10px;
+}
+.top-page{
+    background-image: url(fundoheader.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.top-page ul{
+    display: flex;
+    padding: 25px;
+}
+
+.top-page a{
+    text-decoration: none;
+}
+.top-page ul li{
+    color: #FFF;
+    list-style-type: none;
+    font-size: 20px;
+    padding-left: 90px;
+}
+
+.welcome{
+    margin-left: 270px;
+    padding: 120px 0 400px 250px;
+}
+.welcome h1{
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 400px;
+    line-height: 0;
+}
+.welcome h2{
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 300;
+}

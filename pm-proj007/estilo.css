@@ -1,12 +1,47 @@
+/* Lato-light */@font-face {
+    font-family: 'Lato-light';
+    src: url('../fonts/Lato-Light.ttf') format('ttf');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Lato-medium */@font-face {
+    font-family: 'Lato-medium';
+    src: url('../fonts/Lato-Medium.ttf') format('ttf');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Lato */@font-face {
+    font-family: 'Lato-regular';
+    src: url('../fonts/Lato-Regular.ttf') format('ttf');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+
 body{
     font-family: 'Lato', sans-serif;
 }
+/* All code common*/
+a{
+    text-decoration: none;
+}
+
+h1,h2, p, span{
+    -webkit-font-smoothing: antialiased; 
+}
+
+/* Header*/
 #logotipo{
     background-image: url(logo.png);
     background-repeat: no-repeat;
     background-position: center;
     float: left;
-    margin: 20px 165px 50px 256px;
+    margin: 20px 165px 50px 380px;
     padding: 30px 100px 10px 10px;
     
 }
@@ -27,28 +62,82 @@ nav{
     padding: 25px;
 }
 
-.top-page a{
-    text-decoration: none;
-}
+
 .top-page ul li{
     color: #FFF;
     list-style-type: none;
     font-size: 20px;
-    padding-left: 90px;
+    padding: 12px 32px 12px 32px;
+    margin-left: 58px;
 }
 
 .welcome{
-    margin-left: 270px;
+    margin-left: 130px;
     padding: 120px 0 400px 250px;
 }
 .welcome h1{
     color: #ffffff;
     font-size: 50px;
-    font-weight: 400px;
+    font-weight: 400;
     line-height: 0;
+    margin-left: 65px;
 }
 .welcome h2{
     color: #ffffff;
     font-size: 36px;
     font-weight: 300;
+    margin: 7px 15px 36px 23px;
+}
+.welcome a{
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 300;
+    padding: 19px 149px 25px 149px;
+    box-shadow: 0 6px 2px #a32751;
+    border-radius: 3px;
+    background-color: #ff3d7f;
+}
+#convite{
+    border-radius: 3px;
+    border: 1px solid #ffffff;
+}
+
+#info{
+    border-bottom: 3px solid #511099;
+}
+#info img{
+    float: left;
+    padding: 74px 100px 82px 250px;
+}
+
+.info-texto{
+    margin-bottom: 117px;
+}
+
+.info-texto h2{
+    font-size: 36px;
+    font-weight: 400;
+    margin: 0;
+    padding: 119px 330px 21px 0;
+}
+
+.info-texto p{
+    font-size: 24px;
+    font-weight: 300;
+    margin-right: 450px;
+    line-height: 32px;
+    margin-bottom: 53px;
+}
+
+.info-texto a{
+    font-size: 30px;
+    color: #ffffff;
+    box-shadow: 0 6px 2px #a32751;
+    border-radius: 3px;
+    background-color: #ff3d7f;
+    padding: 18px 62px 19px 61px;
+}
+
+#depoimento{
+    background-color: aqua;
 }

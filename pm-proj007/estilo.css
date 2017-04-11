@@ -50,7 +50,7 @@ h1,h2, p, span{
 }
 nav{
     width: 100%;
-    padding: 10px;
+    padding: 1px;
 }
 .top-page{
     background-image: url(fundoheader.png);
@@ -68,7 +68,12 @@ nav{
     list-style-type: none;
     font-size: 20px;
     padding: 12px 32px 12px 32px;
-    margin-left: 58px;
+    margin-right: 58px;
+}
+
+#convite{
+    border-radius: 3px;
+    border: 1px solid #ffffff;
 }
 
 .welcome{
@@ -97,36 +102,34 @@ nav{
     border-radius: 3px;
     background-color: #ff3d7f;
 }
-#convite{
-    border-radius: 3px;
-    border: 1px solid #ffffff;
-}
+
 
 #info{
     border-bottom: 3px solid #511099;
 }
 #info img{
     float: left;
-    padding: 74px 100px 82px 250px;
+    padding: 74px 100px 82px 300px;
 }
 
 .info-texto{
-    margin-bottom: 117px;
+    margin: 119px 0 110px 0;
+    padding: 30px;
+    display: inline-block;
+    width: 460px;
 }
 
 .info-texto h2{
     font-size: 36px;
     font-weight: 400;
-    margin: 0;
-    padding: 119px 330px 21px 0;
+    margin: 0 auto;
 }
 
 .info-texto p{
     font-size: 24px;
     font-weight: 300;
-    margin-right: 450px;
-    line-height: 32px;
-    margin-bottom: 53px;
+    margin-bottom: 45px;
+    
 }
 
 .info-texto a{
@@ -140,16 +143,73 @@ nav{
 }
 
 #depoimento{
-    background-color: #ebe8fb;
+    background-color: #ebe7fb;
+}
+#depoimento img{
+    margin-top: 65px;
+    margin-bottom: 22px;
 }
 
-#depoimento img{
+.depoimento-caixa{
+    width: 917px;
     margin: 0 auto;
+    padding-bottom: 115px;
+    
 }
-#texto-depoimento{
-    text-align: center;
-    margin-left: 250px;
-    margin-right: 250px;
+.depoimento-caixa p{
     font-size: 24px;
     font-weight: 300;
+    color: #000000;
+    text-align: center;
+}
+#autora{
+    display: block;
+    text-align: center;
+    font-family: 'Lato-medium', sans-serif;
+}
+
+#convites{
+    background-image: url(fundo-convite.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    border-bottom: 1px solid #fff;
+}
+
+#formulario{
+    text-align: center;
+    margin: 0 auto;
+    padding: 152px;    
+}
+
+#formulario input{
+    width: 641px;
+    padding: 20px;
+    background-image: url(mail.png);
+    background-repeat: no-repeat;
+    opacity: 0.89;
+    background-position: right;
+    border-radius: 3px;
+    border: 25px solid rgba(255,255,255,0.8);
+}
+
+::-webkit-input-placeholder{
+    font-size: 24px;
+    font-weight: 400;
+    color: #4a4a4a;
+}
+
+footer{
+    background-color: #2a0157;
+    
+    text-align: center;
+}
+
+footer p{
+    color: #FFFFFF;
+    margin: 0 auto;
+    padding: 35px;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 133;
 }

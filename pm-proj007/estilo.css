@@ -1,215 +1,247 @@
-/* Lato-light */@font-face {
-    font-family: 'Lato-light';
-    src: url('../fonts/Lato-Light.ttf') format('ttf');
-    font-style: normal;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
-}
-
-/* Lato-medium */@font-face {
-    font-family: 'Lato-medium';
-    src: url('../fonts/Lato-Medium.ttf') format('ttf');
-    font-style: normal;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
-}
-
-/* Lato */@font-face {
-    font-family: 'Lato-regular';
-    src: url('../fonts/Lato-Regular.ttf') format('ttf');
-    font-style: normal;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
-}
-
-
 body{
     font-family: 'Lato', sans-serif;
+    -webkit-font-smoothing: antialiased;
 }
-/* All code common*/
-a{
+
+.container{
+    max-width:960px;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.botao{
+    background-color: #ff3d7f;
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+    box-shadow: 0 6px 0 #a32751;
+    border-radius: 3px;
+    font-size: 36px;
+    color: white;
+    text-align: center;
+}
+
+
+/* Header */
+
+header{
+    margin-bottom: -90px;
+}
+header h1{
+    margin: 0;
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    width: 177px;
+    height: 78px;
+    margin-top: 10px;
+}
+
+header h1 span{
+    visibility: hidden;
+}
+
+header nav ul{
+    padding-right: 80px;
+    margin: 0;
+    margin-top: 20px;
+}
+
+header nav li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 80px;
+}
+
+header nav li:last-child{
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    padding: 10px 30px 10px 30px;
+}
+
+header nav li a{
+    color: #fff;
+    font-size: 20px;
     text-decoration: none;
 }
 
-h1,h2, p, span{
-    -webkit-font-smoothing: antialiased; 
+/*Secao topo */
+
+section#topo{
+    background-image: url(fundoheader.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 760px;
 }
 
-/* Header*/
-#logotipo{
-    background-image: url(logo.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    float: left;
-    margin: 20px 165px 50px 380px;
-    padding: 30px 100px 10px 10px;
+section#topo .chamada{
+    color: #fff;
+    margin-top: 200px;
+    text-align: center;
+}
+
+section#topo .chamada h2{
+    font-size: 50px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+section#topo .chamada p{
+    font-size: 36px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+/* Secao conheca*/
+
+section#conheca{
+    padding: 70px;
+}
+
+section#conheca .texto{
+    padding: 70px;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+section#conheca .texto h2{
+    font-size: 36px;
+}
+
+section#conheca .texto p{
+    font-size: 24px;
     
 }
-#logotipo span{
+
+section#conheca .texto a{
+    width: 60%;
+    font-size: 30px;
+}
+
+
+/* Secao depoimento*/ 
+
+section#depoimento{
+    background-color: #ebe8fb;
+    border-top: 3px solid #511099;
+}
+
+section#depoimento .container{
+    flex-direction: column;
+    align-items: center;
+    padding: 70px;
+    padding-bottom: 50px;
+}
+
+section#depoimento img{
+    width: 151px;
+    height: 150px;
+}
+
+section#depoimento p{
+    font-size: 24px;
+    width: 80%;
+    text-align: center;
+}
+
+
+/*Secao convite */ 
+
+section#convite{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-image: url(fundo-convite.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section#convite form{
+    background-color: rgba(255,255,255,0.9);
+    padding: 10px;
+    width: 55%;
+    border-radius: 3px;
+    display: flex;
+}
+
+section#convite input{
+    padding: 30px;
+    width: 75%;
+    background-color: transparent;
+    border: none;
+}
+
+section#convite button{
+    background-image: url(mail.png);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    width: 105px;
+    height: 43px;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+section#convite button span{
     visibility: hidden;
 }
-nav{
-    width: 100%;
-    padding: 1px;
-}
-.top-page{
-    background-image: url(fundoheader.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-.top-page ul{
-    display: flex;
-    padding: 25px;
+
+
+section#convite .container{
+    flex-direction: column;
+    align-items: center;
 }
 
 
-.top-page ul li{
-    color: #FFF;
-    list-style-type: none;
-    font-size: 20px;
-    padding: 12px 32px 12px 32px;
-    margin-right: 58px;
-}
-
-#convite{
-    border-radius: 3px;
-    border: 1px solid #ffffff;
-}
-
-.welcome{
-    margin-left: 130px;
-    padding: 120px 0 400px 250px;
-}
-.welcome h1{
-    color: #ffffff;
-    font-size: 50px;
-    font-weight: 400;
-    line-height: 0;
-    margin-left: 65px;
-}
-.welcome h2{
-    color: #ffffff;
-    font-size: 36px;
-    font-weight: 300;
-    margin: 7px 15px 36px 23px;
-}
-.welcome a{
-    color: #ffffff;
-    font-size: 32px;
-    font-weight: 300;
-    padding: 19px 149px 25px 149px;
-    box-shadow: 0 6px 2px #a32751;
-    border-radius: 3px;
-    background-color: #ff3d7f;
-}
-
-
-#info{
-    border-bottom: 3px solid #511099;
-}
-#info img{
-    float: left;
-    padding: 74px 100px 82px 300px;
-}
-
-.info-texto{
-    margin: 119px 0 110px 0;
-    padding: 30px;
-    display: inline-block;
-    width: 460px;
-}
-
-.info-texto h2{
-    font-size: 36px;
-    font-weight: 400;
-    margin: 0 auto;
-}
-
-.info-texto p{
-    font-size: 24px;
-    font-weight: 300;
-    margin-bottom: 45px;
-    
-}
-
-.info-texto a{
-    font-size: 30px;
-    font-weight: 300;
-    color: #ffffff;
-    box-shadow: 0 6px 2px #a32751;
-    border-radius: 3px;
-    background-color: #ff3d7f;
-    padding: 18px 62px 19px 61px;
-}
-
-#depoimento{
-    background-color: #ebe7fb;
-}
-#depoimento img{
-    margin-top: 65px;
-    margin-bottom: 22px;
-}
-
-.depoimento-caixa{
-    width: 917px;
-    margin: 0 auto;
-    padding-bottom: 115px;
-    
-}
-.depoimento-caixa p{
-    font-size: 24px;
-    font-weight: 300;
-    color: #000000;
-    text-align: center;
-}
-#autora{
-    display: block;
-    text-align: center;
-    font-family: 'Lato-medium', sans-serif;
-}
-
-#convites{
-    background-image: url(fundo-convite.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
-    border-bottom: 1px solid #fff;
-}
-
-#formulario{
-    text-align: center;
-    margin: 0 auto;
-    padding: 152px;    
-}
-
-#formulario input{
-    width: 641px;
-    padding: 20px;
-    background-image: url(mail.png);
-    background-repeat: no-repeat;
-    opacity: 0.89;
-    background-position: right;
-    border-radius: 3px;
-    border: 25px solid rgba(255,255,255,0.8);
-}
-
-::-webkit-input-placeholder{
-    font-size: 24px;
-    font-weight: 400;
-    color: #4a4a4a;
-}
+/* Footer*/
 
 footer{
     background-color: #2a0157;
-    
-    text-align: center;
+    color: #fff;
+    padding-top: 30px; 
+    padding-bottom: 30px;
+    margin-top: 4px;
 }
 
-footer p{
-    color: #FFFFFF;
-    margin: 0 auto;
-    padding: 35px;
+footer .container{
+    flex-direction: column;
+    align-items: center;
     font-size: 18px;
-    font-weight: 300;
-    letter-spacing: 1px;
 }
+
+/*Media */
+@media (max-width: 600px){
+    
+    section#topo{
+        padding: 20px;
+    }
+    
+    section#conheca .container{
+        flex-direction: column;
+    }
+    
+    section#conheca .container .texto{
+        padding: 10px;
+    }
+    
+    section#conheca .container .texto a{
+        width: 100%;
+    }
+    
+    section#convite form{
+        display: block;
+        text-align: center;
+        width: 80%;
+    }
+    
+    
+    
+    header nav{
+        display: none;
+    }
+    
+    header h1{
+        margin-left: 20px;
+    }
+}
+

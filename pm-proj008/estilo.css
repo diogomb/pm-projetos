@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    background-color: #f5f5f5;
+}
+
+/*Aside*/
+
+aside{
+    width: 200px;
+    background-color: #242536;
+}
+
+aside li{
+    list-style: none;
+}
+
+aside ul a{
+    color:#fff;
+    text-decoration: none;
+}
+
+aside h1{
+    margin: 0;
+    background-image: url(nucliot-logo.png);
+    background-repeat: no-repeat;
+    background-color: #151524;
+    background-position: center center;
+    height: 60px;
+    
+}
+
+aside h1 span{
+    visibility: hidden;
+}
+
+section#principal{
+    width: 100%;
+}
+
+section#principal header{
+    height: 60px;
+    background-color: #242536;
+}
+
+section#principal .modulo .abas{
+    height: 60px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e7e7e7;
+    /*box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);*/
+}
+section#principal .modulo .container{
+    height: 300px;
+    padding: 20px;
+}
+
+section#principal .modulo .container .canvas{
+    background-color: #fff;
+    height: 300px;
+    border: 1px solid #e7e7e7;
+    border-radius: 4px;
+}

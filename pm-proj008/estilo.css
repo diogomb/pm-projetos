@@ -1,6 +1,7 @@
 body{
     display: flex;
     background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
 }
 
 /*Aside*/
@@ -12,12 +13,40 @@ aside{
 
 aside li{
     list-style: none;
+    margin-bottom: 1px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 15px;
+    font-size: 14px;
+    font-weight: bold;
 }
-
-aside ul a{
+aside li:hover{
+    background-color: #151524;
+    border-left: solid 4px #ffb946;
+    cursor: pointer;
+    padding-left: 11px;
+}
+aside li a{
     color:#fff;
     text-decoration: none;
 }
+aside li i{
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+aside li small{
+    color: rgba(255,255,255,0.6);
+    float: right;
+    margin-right: 15px;
+}
+aside ul{
+    margin: 0;
+    padding: 0;
+
+}
+
 
 aside h1{
     margin: 0;

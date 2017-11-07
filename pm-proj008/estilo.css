@@ -69,6 +69,10 @@ section#principal{
 section#principal header{
     height: 60px;
     background-color: #242536;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 20px;
 }
 
 section#principal .modulo .abas{
@@ -77,6 +81,33 @@ section#principal .modulo .abas{
     border-bottom: 1px solid #e7e7e7;
     /*box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);*/
 }
+
+section#principal .modulo .abas ul{
+    margin: 0;
+    padding: 0;
+    margin-left: 50px;
+}
+
+section#principal .modulo .abas li{
+    display: inline-block;
+    line-height: 60px;
+}
+
+section#principal .modulo .abas ul li a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;display: inline-block;
+}
+
+section#principal .modulo .abas ul li a:hover{
+    color: #ffb946;
+    box-shadow: 0 -3px 0px #ffb946 inset;
+}
+
+
 section#principal .modulo .container{
     height: 300px;
     padding: 20px;

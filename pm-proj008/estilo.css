@@ -168,3 +168,25 @@ form li.ok{
     width: 430px;
 }
 
+form button{
+    width: 400px;
+    height: 40px;
+    background-color: #3aca60;
+    font-size: 16px;
+    border: none;
+    text-transform: none;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.confirmacoes li{
+    font-size: 14px;
+    display: flex;
+    width: 400px;
+}
+
+.confirmacoes input{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}

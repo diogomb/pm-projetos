@@ -115,7 +115,56 @@ section#principal .modulo .container{
 
 section#principal .modulo .container .canvas{
     background-color: #fff;
-    height: 300px;
-    border: 1px solid #e7e7e7;
+    padding: 20px;
+    border: 1px solid #e6e6e6;
     border-radius: 4px;
+    padding: 20px;
 }
+
+form ul{
+    padding: 0;margin: 0;
+    margin-bottom: 30px;
+    
+}
+
+form li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+form h2{
+    font-size: 20px;
+    color: #161616;
+    padding: 0;margin: 0;
+    margin-bottom: 20px;
+}
+
+form input, form select{
+    width: 400px;
+    height: 40px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    border: 1px solid #dddddd;
+}
+
+form small{
+    display: block;
+    width: 400px;
+    margin-top: 5px;
+}
+form select{
+    color: #c5c5c5;
+}
+
+::-webkit-input-placeholder{
+    color: #c5c5c5;
+}
+
+form li.ok{
+    background-image: url(ok.png);
+    background-repeat: no-repeat;
+    background-position: top 10px right;
+    /*testar*/
+    width: 430px;
+}
+

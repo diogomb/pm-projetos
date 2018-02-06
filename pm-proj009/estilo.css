@@ -1,1 +1,39 @@
 /*estilo proj */
+
+body {
+    background-image: url(images/background.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+section#principal{
+    width: 100%;
+    margin: 5%;
+    
+}
+
+section#principal header {
+    background-color: blue;
+    width:680px;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+section#principal .modulos {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: yellow;
+    width: 680px;
+    height: 580px;
+}
+
+section#principal .modulos .pagamento{
+    background-color: green;
+}
+
+section#principal .modulos .basket{
+    background-color: grey;
+}
+

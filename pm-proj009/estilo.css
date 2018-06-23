@@ -24,16 +24,18 @@ section#principal .modulos {
     display: flex;
     margin: 0;
     padding: 0;
-    background-color: yellow;
+    background-color: grey;
     width: 680px;
     height: 580px;
+}
+
+section#principal .modulos .basket{
+    background-color: yellow;
 }
 
 section#principal .modulos .pagamento{
     background-color: green;
 }
 
-section#principal .modulos .basket{
-    background-color: grey;
-}
+
 

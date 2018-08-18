@@ -18,8 +18,17 @@ input{
 	border-bottom: 1px solid #ffffff;
 	
 }
+/*Google Chrome Placeholder*/
 
 ::-webkit-input-placeholder{
+	color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+/*Mozilla Firefox Placeholder*/
+input::-moz-placeholder{
 	color: #ffffff;
 	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
